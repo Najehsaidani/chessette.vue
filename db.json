@@ -1,15 +1,18 @@
+{
 details: ['50% coton', '20% polyester', '30% laine'],
 variants: [
-        {
-          id: 2001,
-          color: 'green',
-          image: require('@/assets/images/socks_green.jpg'),
-          quantity: 50,
-        },
-        {
-          id: 2002,
-          color: 'blue',
-          image: require('@/assets/images/socks_blue.jpg'),
-          quantity: 100,
-        },
-      ],
+  {
+    id: 2001,
+    color: 'green',
+    image: require('@/assets/images/socks_green.jpg'), // Ensure this path is correct
+    quantity: 50,
+  },
+  {
+    id: 2002,
+    color: 'blue',
+    image: require('@/assets/images/socks_blue.jpg'), // Ensure this path is correct
+    quantity: 100,
+  },
+]
+
+}
